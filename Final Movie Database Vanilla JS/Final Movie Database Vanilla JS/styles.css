@@ -1,0 +1,159 @@
+/*
+Name: Lilly Jarvis (Banuelos)
+Date: 05/05/2023
+Program Purpose: This allows a user to select and buy movie tickets based on the movies they add to their "cart"
+*/
+
+/*
+Styles the index html page when the home/first page loads
+*/
+
+/*
+styles all the images
+*/
+img {
+    /*
+    sets all the image heights to 400px
+    */
+    height: 400px;
+    /*
+    sets all the image widths to 250px
+    */
+    width: 250px;
+    /*
+    moves all the pictures over to the right by 5%
+    */
+    margin-left: 5%;
+}
+
+/*
+styles all the movie titles 
+*/
+.title {
+    /*
+    moves the titles over to the right by 5%
+    */
+    margin-left: 5%;
+    /*
+    sets the width of the movie titles
+    */
+    width: 33%;
+    /*
+    makes the page more flexible so elements can line up if there's space
+    */
+    float: left;
+    /*
+    changes the background color
+    */
+    background-color: #2c5b98;
+    /*
+    adds some dark blue space above the top of the movie title
+    */
+    padding-top: 9%;
+    /*
+    adds some dark blue space below the  movie title
+    */
+    padding-bottom: 12%;
+    /*
+    squishes the title to the left by 1%
+    */
+    margin-right: 1%;
+    /*
+    makes all the words center for the titles
+    */
+    text-align: center;
+}
+
+/*
+styles the movie elements
+*/
+.movie {
+    /*
+    makes the width of the movie elements 33%
+    */
+    width: 33%;
+    /*
+    makes the page more flexible so elements can line up if there's space
+    */
+    float: left;
+    margin-left: 5%;
+}
+
+/*
+styles the movie summary elements
+*/
+.summary {
+    /*
+    makes the width of the movie summaries 33%
+    */
+    width: 33%;
+    /*
+    makes the page more flexible so elements can line up if there's space
+    */
+    float: left;
+    /*
+    makes all the words center for the titles
+    */
+    text-align: center;
+    /*
+    adds space above the movie summaries
+    */
+    padding-top: 6%;
+}
+
+/*
+styles the theater name banner at the top of the index page
+*/
+#theaterName {
+    /*
+    makes text center
+    */
+    text-align: center;
+    /*
+    makes the font size larger
+    */
+    font: xx-large;
+    /*
+    changes the background color
+    */
+    background-color: white;
+    /*
+    makes the h2 banner touch the top of the screen
+    */
+    margin-top: 0%;
+    /*
+    adds some white above the top of the h2 element
+    */
+    padding-top: 1%;
+    /*
+    adds some white to the bottom of the h2 element
+    */
+    padding-bottom: .5%;
+}
+
+/*
+styles the first form and the now playing h1
+*/
+#form1, #nowPlaying {
+    /*
+    moves form and now playing over to the right by 5%
+    */
+    margin-left: 5%;
+}
+
+/*
+styles the body
+*/
+body {
+    /*
+    changes the background color
+    */
+    background-color: #95b5e0;
+
+    /*
+    makes all the margins for the body go all the way to the edge of the screen except for the bottom
+    */
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%
+}

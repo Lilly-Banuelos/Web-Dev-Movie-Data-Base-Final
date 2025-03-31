@@ -1,0 +1,61 @@
+/*
+Name: Lilly Jarvis (Banuelos)
+Date: 05/05/2023
+Program Purpose: This allows a user to select and buy movie tickets based on the movies they add to their "cart"
+*/
+
+/*
+Styles the purchase html page after the user submits the submit button on form1
+*/
+
+/*
+    styles the body
+*/
+body {
+    /*
+    adds a backfround image to the 2nd page (purchase.html)
+    */
+    background-image: url(movie1.jpg);
+    /*
+    makes the background fit the page
+    */
+    background-size: cover;
+    /*
+    makes the font size bigger
+    */
+    font-size: larger;
+}
+
+/*
+    styles the second form that's on the purchase.html page
+*/
+#form2 {
+    /*
+    changes the background color
+    */
+    background-color: white;
+    /*
+    moves the form to the right by 30%;
+    */
+    margin-left: 30%;
+    /*
+    adds some white space to the top of the form
+    */
+    padding-top: 5%;
+    /*
+    adds some white space to the bottom of the form
+    */
+    padding-bottom: 5%;
+    /*
+    squishes the form to the left by 30%
+    */
+    margin-right: 30%;
+    /*
+    moves the form down by 10%
+    */
+    margin-top: 10%;
+    /*
+    makes the text centered
+    */
+    text-align: center;
+}

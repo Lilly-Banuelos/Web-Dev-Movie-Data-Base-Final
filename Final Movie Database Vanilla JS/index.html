@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Movies!</title>
+    <!-- this links the styles.css file to this project -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- 
+        Name: Lilly Jarvis (Banuelos)
+        Date: 05/05/2023
+        Program Purpose: This allows a user to select and buy movie tickets based on the movies they add to their "cart"
+    -->
+</head>
+<body>
+    <!-- This displays the theater name at the top of the page -->
+    <h2 id="theaterName">CHEEZY FLICKS MOVIE THEATER&#127871;</h2>
+    <!-- This adds a NOW PLAYING sign using h1 -->
+    <h1 id="nowPlaying">NOW PLAYING</h1>
+    <!-- displays 3 movies, and provides an order form for purchasing tickets. goes to the purchase.html page after submission. adds an id for the form -->
+    <form action="/purchase.html" id="form1">
+        <!-- this is a label displayed before the movie options multiple selection box -->
+        <label for="movieOption">Select Your Movies:</label><br>
+        <!-- this creates a multiple selection box -->
+        <select name="movieOption" id="movieOption" multiple>
+        </select><br>
+    </form>
+
+    <!-- this links the js file to this project -->
+    <script src="app.js"></script>
+</body>
+</html>
